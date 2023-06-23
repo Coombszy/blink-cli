@@ -1,0 +1,16 @@
+[package]
+name = "blink-cli"
+description = "The minimal, blazing-fast file sharing cli tool."
+keywords = ["CLI", "file", "transfer", "free"]
+version = "0.0.1"
+edition = "2021"
+authors = ["Coombszy <LCCoombs@hotmail.co.uk>"]
+repository = "https://github.com/Coombszy/blink-cli"
+license = "MIT"
+
+
+[[bin]]
+name = "blink"
+path = "src/main.rs"
+
+[dependencies]
